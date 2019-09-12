@@ -1,0 +1,52 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+body {
+	background: #5286c1;
+	color: white;
+}
+
+nav {
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: #ddd;
+}
+
+nav ul {
+	list-style-type: none;
+	background-color: #4371a3;
+}
+
+nav li {
+	float: left;
+	padding: 8px 25px;
+	background-color: #4371a3;
+}
+
+header {
+	clear: both;
+}
+
+p.logoleft {
+	float: left;
+	font-size: 1.8em;
+	
+}
+
+td {
+	margin: 2px;
+}
+
+.articles {
+	vertical-align: top;
+}
