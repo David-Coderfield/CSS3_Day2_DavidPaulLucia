@@ -1,0 +1,78 @@
+* {
+	font-family: Verdana, sans-serif;
+	text-align: center;
+}
+
+body {
+	margin: 0px;
+}
+
+header {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+header img {
+	width: 130px;
+	height: 130px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+nav {
+	background-color: #333;
+	position: fixed;
+	top: 0px;
+}
+
+div.scroll {
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	z-index: -1;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0; /*sets all the margin properties*/
+	padding: 0; /*used to generate space around content*/
+	overflow: hidden; /*whether to clip content or to add scrollbars */
+	width: 100%;
+}
+
+nav li {
+	float: left;
+	border: 1px solid #000;
+	font-size: 150%;
+	padding: 8px;
+}
+
+nav a {
+	color:  white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+div.feature, footer {
+	width: 100%;
+	display: inline-block;
+	background-color: #ccc;
+}
+
+#a, #b, #c {
+	width: 33%;
+	display: inline-block;
+	background-color: #f00;
+	margin: 5px 0px;
+}
+
+div {
+}
+
+
